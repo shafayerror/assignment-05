@@ -117,3 +117,135 @@ body {
   color: white;
   text-align: center;
 }
+/* Banner style */
+.banner-container {
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(to right, #013223, #006747, #013223);
+}
+.banner-img {
+  width: 92px;
+  height: 92px;
+}
+.banner-title {
+  font-size: 2.5rem;
+  color: white;
+}
+.banner-des {
+  font-size: 1.25rem;
+  color: white;
+}
+
+/* Main style starts here */
+
+.emergency-services-container {
+  background-color: rgb(245, 255, 246, 100%);
+  padding: 40px 60px 85px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-content: center;
+}
+.emergency-service-container {
+}
+.emergency-service {
+  width: 400px;
+  height: 350px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px grey;
+  padding: 20px;
+  background-color: white;
+}
+/* Emergency service icon */
+.services-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.icon-bg {
+  background-color: #ffe3e2;
+  height: 60px;
+  width: 60px;
+  border-radius: 16px;
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#icon-bg2 {
+  background-color: #dfefff;
+}
+.Icon-img {
+  width: 32px;
+  height: 32px;
+}
+
+/* service-title */
+.service-title {
+  margin-bottom: 15px;
+}
+.service-name {
+  font-size: 1.5rem;
+}
+
+.service-des {
+  font-size: 1.12rem;
+  color: #5c5c5c;
+}
+
+/* service-number */
+.service-number {
+  margin-bottom: 15px;
+}
+.services-num {
+  font-size: 1.5rem;
+}
+.service-catagory {
+  background-color: #f2f2f2;
+  width: 50px;
+  height: 30px;
+  border-radius: 20px;
+  padding: 6px 16px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.catagory-text {
+  font-size: 1.12rem;
+}
+/* service call button */
+
+.copy-btn {
+  width: 190px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #5c5c5c;
+  border-radius: 8px;
+  color: #5c5c5c;
+  background-color: white;
+}
+.call-btn {
+  width: 190px;
+  height: 40px;
+  text-align: center;
+  background-color: #00a63e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+/* span column for call history */
+
+#call-history {
+  grid-row: span 3;
+  height: 1200px;
+}
+.history {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-clear {
+  border: none;
+}
